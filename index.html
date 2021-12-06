@@ -3,31 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./styles/style.css">
   <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
 
-  Get insights that help your business grow.
+  <div class="container">
+    <div class="card">
+      <div class="card-text">
+        <h1>Get <span>insights </span>  that help your business grow.</h1>
+        <p class="text">Discover the benefit's of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency. </p>
+        <div class="block">
+          <div class="stats">
+            <div class="stat-block">
+              <div class="stat-num">10K+</div>
+              <div class="stat-title">Companies</div>
+            </div>
+            <div class="stat-block">
+              <div class="stat-num">314</div>
+              <div class="stat-title">Templates</div>
+            </div>
+            <div class="stat-block">
+              <div class="stat-num">12M+</div>
+              <div class="stat-title">Queries</div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+      <div class="card-img">
+        <img class="desktop-img" src="./images/image-header-desktop.jpg" alt="hero-img">
+        <img class="mobile-img" src="./images/image-header-mobile.jpg" alt="hero-img">
+        <div class="pink"></div>
+      </div>
+    </div>
 
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
   </div>
+  
 </body>
 </html>
